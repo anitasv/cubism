@@ -7,6 +7,7 @@ all: cubism.v1.min.js package.json
 
 cubism.v1.js: \
 	src/cubism.js \
+	src/package.js \
 	src/id.js \
 	src/identity.js \
 	src/option.js \

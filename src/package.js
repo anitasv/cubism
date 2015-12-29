@@ -2,12 +2,11 @@ var util = require("util");
 
 navigator = {} 
 
-var d3 = require("d3"),
-    cubism = require("../cubism.v1").cubism;
+var d3 = require("d3");
 
 util.puts(JSON.stringify({
   "name": "cubism",
-  "version": cubism.version,
+  "version": "1.6.0",
   "description": "A JavaScript library for time series visualization.",
   "keywords": ["time series", "visualization", "d3"],
   "homepage": "http://square.github.com/cubism/",
