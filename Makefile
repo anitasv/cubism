@@ -1,5 +1,5 @@
 JS_TESTER = ./node_modules/vows/bin/vows
-JS_COMPILER = ./node_modules/uglify-js/bin/uglifyjs
+JS_COMPILER = ./node_modules/uglify/bin/uglify
 
 .PHONY: test
 
@@ -7,6 +7,7 @@ all: cubism.v1.min.js package.json
 
 cubism.v1.js: \
 	src/cubism.js \
+	src/package.js \
 	src/id.js \
 	src/identity.js \
 	src/option.js \
