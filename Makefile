@@ -1,5 +1,5 @@
 JS_TESTER = ./node_modules/vows/bin/vows
-JS_COMPILER = ./node_modules/uglify/bin/uglify
+JS_COMPILER = ./node_modules/uglify-js/bin/uglifyjs
 
 .PHONY: test
 
